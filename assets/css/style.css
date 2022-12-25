@@ -82,16 +82,16 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --color-primary: #059DFF;
+  --color-primary: #053bff;
   --color-primary-rgba: rgb(5, 157, 255);
   --color-primary-rgba-2: rgba(5, 157, 255,0.15);
   --color-primary-alt: #059DFF;
   --color-primary-light: #059DFF;
   --color-primary-lightest: #059DFF;
-  --color-secondary: #FB5343;
-  --color-tertiary: #6549D5;
+  --color-secondary: #00e1ff;
+  --color-tertiary: #04bffd;
   --color-tertiary-alt: #6549D5;
-  --color-pink: #E33FA1;
+  --color-pink: #00c3ff;
   --color-light-green: #36C6F0;
   --color-primary-darker: #011827;
   --color-tertiary-darker: #150b40;
@@ -7682,7 +7682,7 @@ textarea:-ms-input-placeholder {
 ==========================*/
 /* Theme Gradient */
 .theme-gradient, .counter-style-1 .count-number {
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
+  background: linear-gradient(45deg, var(--color-primary) 35%,  var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
   text-transform: capitalize;
   -webkit-background-clip: text;
   background-clip: text;
@@ -8979,7 +8979,7 @@ xclip
   align-items: center;
 }
 .header-default .logo a img {
-  max-height: 45px;
+  max-height: 58px;
 }
 .header-default .header-right {
   display: flex;
@@ -14370,19 +14370,19 @@ iframe {
 }
 
 .height-950 {
-  height: 950px;
+  height: 100vh;
   display: flex;
   align-items: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .height-950 {
-    height: auto;
+    height: 100vh;
     padding: 150px 0;
   }
 }
 @media only screen and (max-width: 767px) {
   .height-950 {
-    height: auto;
+    height: 100vh;
     padding: 150px 0;
   }
 }
